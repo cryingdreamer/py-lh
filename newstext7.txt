@@ -1,0 +1,8 @@
+网页
+var isHttps = location.href.substr(0, 5) == "https" ? "true": "false";var playerParas = {divId: "myFlash",   /*播放器容器id，必填项*/w: 1000,   /*播放器宽度，必填项*/h: 563,   /*播放器高度，必填项*/t: "news",   /*台名称，比如news,sports,tv等，必填项*/videoCenterId: "04a4de06ac46474597b8611fee33e57f",   /*视频生产中心guid，必填项*/br: "",  /*设置默认码率*/id: "null",   /*可填null,必填项*/videoId: "VIDE100215108600",   /*视频集id*/url: "",   /*视频页面url，如http://tv.cntv.cn/video/C18472/a28126e5e0424a44af6a9bc4c5a47742*/articleId: "",   /*文章id*/filePath: "",   /*文件路径*/sysSource: "",   /*视频来源*/channelId: "",   /*可为空*/scheduleId: "C18472000001",   /*关键字*/isLogin: "",   /*用户中心相关，是否登录*/userId: "C18472000001",   /*用户中心相关，用户登录id*/isDefaultPreImage: "true",   /*是否默认从vdn取图，非自动播放情况下才有效*/isAutoPlay: "true",   /*是否自动播放，只有false为不自动播放，其它值为自动播放*/posterImg: "",   /*播放器前贴图片*/isAudio: "false",  /*是否是音频播放器,为true表示是音频，false表示是视频*/isHttps: isHttps,  /*是否https视频，true是,false不是*/wmode: "opaque",   /*flash播放器的窗口模式，默认为opaque*/wideMode: "normal",   /*flash播放器的窗口模式，默认为opaque*/setupOn: "false", /*是否显示设置按钮，默认为false*/playerType : "vod_h5",   /*播放器类型，vod_h5表示H5播放器*/ drm : "true",   /*H5-DRM*/ isLeftBottom: "true", /*播放按钮是否在播放器左下角,为true表示是，false表示播放按钮在播放器中间*/webFullScreenOn: "false",   /*是否显示全屏按钮，默认true表示显示*/language: ""  /*语言，默认中文，en表示英语*/};createVodPlayer(playerParas);
+　　根据两会疫情防控工作的安排，今年两会报道延续了去年的“云采访”，主要以网络视频的方式报道两会活动。今年的“云采访”和去年有何不同？总台两会转播团队又是怎样为大家呈现两会第一现场的呢？总台央视记者带您一起探访！　　
+　　监制丨李大勇
+　　制片人丨温露 张鹏军
+　　记者丨毕乐成
+　　摄像丨毕乐成 杨德才
+　　剪辑丨王晓婧
